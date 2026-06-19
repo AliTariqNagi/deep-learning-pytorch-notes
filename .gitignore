@@ -4,12 +4,12 @@ venv/
 env/
 ENV/
 
-# Python cache files
+# Python cache
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Jupyter Notebook checkpoints
+# Jupyter
 .ipynb_checkpoints/
 
 # Environment variables and secrets
@@ -17,10 +17,8 @@ __pycache__/
 .env.*
 *.env
 
-# VS Code settings
+# IDE files
 .vscode/
-
-# PyCharm settings
 .idea/
 
 # System files
@@ -30,27 +28,25 @@ Thumbs.db
 # Logs
 *.log
 
-# Build and distribution files
+# Build files
 build/
 dist/
 *.egg-info/
 
-# Test and coverage files
+# Test and coverage
 .pytest_cache/
 .coverage
 htmlcov/
 
-# PyTorch model checkpoints and large model files
+# PyTorch model/checkpoint files
 *.pt
 *.pth
 *.ckpt
 *.onnx
 
-# Dataset folders
+# Data and output folders
 data/
 datasets/
-
-# Output folders
 outputs/
 runs/
 checkpoints/
